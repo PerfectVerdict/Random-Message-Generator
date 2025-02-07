@@ -19,7 +19,12 @@ document.querySelector('#app').innerHTML = `
     display: inline-block;
     font-size: 16px;
     border-radius: 8px;
-    cursor: pointer; margin: -30px auto 20px auto; font-family: 'Arial', sans-serif; transition: background-color 0.3s ease; font-size: 30px; display: block;  auto;">Get Message</button>
+    position: fixed;
+        top: 20%; /* Position from the top */
+        left: 50%;
+        margin: 0;
+        transform: translateX(-50%);
+    cursor: pointer; font-family: 'Arial', sans-serif; transition: background-color 0.3s ease; font-size: 30px; display: block;  auto;">Get Message</button>
     <h1 id="messageDisplay" style="color: white; font-family: 'Arial', sans-serif; text-align: center; max-width: 500px; font-size: 30px; line-height: 40px;"></h1>
     
 `
