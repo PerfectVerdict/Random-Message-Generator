@@ -20,11 +20,11 @@ document.querySelector('#app').innerHTML = `
     font-size: 16px;
     border-radius: 8px;
     position: fixed;
-        top: 20%; /* Position from the top */
+        bottom: 10%; /* Position from the top */
         left: 50%;
         margin: 0;
         transform: translateX(-50%);
-    cursor: pointer; font-family: 'Arial', sans-serif; transition: background-color 0.3s ease; font-size: 30px; display: block;  auto;">Get Message</button>
+    cursor: pointer; font-family: 'Arial', sans-serif; transition: background-color 0.3s ease; font-size: 30px; display: block;  auto;">Daily Bread</button>
     <h1 id="messageDisplay" style="color: white; font-family: 'Arial', sans-serif; text-align: center; max-width: 500px; font-size: 30px; line-height: 40px;"></h1>
     
 `
