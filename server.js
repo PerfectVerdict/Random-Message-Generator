@@ -58,7 +58,7 @@ const messages = [
     "Then said Jesus, Father, forgive them; for they know not what they do. – Luke 23:34"
 ];
 
-app.get("/message", (req, res) => {
+app.get("/", (req, res) => {
     const randomMessage = messages[Math.floor(Math.random() * messages.length)]
     res.send(randomMessage)
     })
@@ -66,7 +66,7 @@ app.get("/message", (req, res) => {
 
 
 
-const PORT = process.env.PORT || 5000; // Use Render's port or default to 5000
+const PORT = process.env.PORT || 10000; // Use Render's port or default to 5000
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 

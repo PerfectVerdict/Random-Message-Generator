@@ -5,7 +5,7 @@ document.querySelector('#app').innerHTML = `
 `
 document.getElementById("getMessage").addEventListener("click", async () => {
     try {
-        const response = await fetch("http://localhost:5000/message");
+        const response = await fetch("http://localhost:5000/");
         const message = await response.text()
         console.log(message)
         document.getElementById("messageDisplay").innerText = message;
